@@ -39,24 +39,21 @@ header nav a:hover {
 }
 
 /* Profile Picture */
-.Profile-pic {
-  width: 120px;          
-  height: 140px;
-  border-radius: 50% 50% 50% 50% / 70% 70% 40% 40%; /* droplet shape */
+.profile-pic {
+  width: 120px;
+  height: 140px;                     /* taller to emphasize droplet */
+  border-radius: 50% 50% 50% 50% / 70% 70% 40% 40%;  /* droplet shape */
   border: 3px solid #fff;
-  object-fit: cover;
+  object-fit: cover;                 /* crops inside shape */
   box-shadow: 0 3px 8px rgba(0,0,0,0.2);
   display: block;
-  margin: 0 auto 15px auto;
+  margin: 0 auto 15px auto;          /* center horizontally */
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-
-/* Hover Effect */
-.Profile-pic:hover {
-  transform: scale(1.05); /* gentle zoom */
-  box-shadow: 0 6px 15px rgba(0, 122, 204, 0.6); /* blue glow */
+.profile-pic:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 15px rgba(0, 122, 204, 0.6);
 }
-
 
 
 
