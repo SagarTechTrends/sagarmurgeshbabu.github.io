@@ -1,85 +1,139 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Sagar Tech Trends | Portfolio</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-  <header>
-    <img src="profile.jpg" alt="Profile Photo" class="profile-pic" />
-    <h1>Sagar Murugesh Babu</h1>
-    <p class="tagline">Data Analytics & AI Enthusiast | Growing Expertise in LLMs and Emerging Tech
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Sagar Tech Trends | Portfolio</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+  </head>
+  <body class="is-preload">
 
-</p>
-    <nav>
-      <a href="#about">About</a>
-      <a href="#projects">Projects</a>
-      <a href="#contact">Contact</a>
+    <!-- Nav -->
+    <nav id="nav">
+      <ul class="container">
+        <li><a href="#top">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#portfolio">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
     </nav>
-  </header>
 
-  <section id="about">
-    <h2>About Me</h2>
-    <p>
-      From analyzing large datasets to deploying AI-powered apps, my journey has been about making data work smarter and more impactful. 
-      I’m passionate about <strong>Large Language Models (LLMs)</strong>, <strong>Data Analytics</strong>, and <strong>AI applications</strong> that go beyond numbers—
-      tools that help people ask better questions, uncover clearer insights, and drive smarter decisions.
-    </p>
-    <p>
-      I’ve built projects such as a <strong>NYC Property Price Predictor</strong> using PySpark, XGBoost, and SHAP, and a 
-      <strong>Streamlit app for LLMs in Business Intelligence</strong>, where I gained hands-on experience with predictive modeling, 
-      natural language query generation, and interactive analytics. 
-      While I’m still expanding my expertise in <strong>LLMs, NLP, and AI model deployment</strong>, I’m deeply motivated to explore 
-      emerging areas like Retrieval-Augmented Generation (RAG), embeddings, and multimodal AI—with the goal of applying these technologies 
-      to solve real-world business challenges.
-    </p>
-  </section>
-
-  <section id="projects">
-    <h2>Projects</h2>
-    <div class="projects">
-      <div class="card">
-        <h3>NYC Property Price Predictor</h3>
-        <p>
-          End-to-end machine learning pipeline in Databricks using PySpark, XGBoost, and SHAP to predict property sale prices. 
-          Deployed as a Streamlit app for interactive predictions.
-        </p>
-        <a href="https://github.com/SagarTechTrends/Residential-property-sales-NYC" target="_blank">View on GitHub</a> | 
-        <a href="https://residential-property-sales-nyc.streamlit.app/" target="_blank">Try the App</a>
+    <!-- Home -->
+    <article id="top" class="wrapper style1">
+      <div class="container">
+        <div class="row">
+          <div class="col-4 col-5-large col-12-medium">
+            <span class="image fit">
+              <img src="images/profile.jpg" alt="Sagar Profile" />
+            </span>
+          </div>
+          <div class="col-8 col-7-large col-12-medium">
+            <header>
+              <h1>Hi, I'm <strong>Sagar Murugesh Babu</strong>.</h1>
+            </header>
+            <p>
+              <strong>AI & Data Analytics Enthusiast</strong> | Growing Expertise in 
+              <strong>LLMs and Emerging Tech</strong>.
+            </p>
+            <a href="#about" class="button large scrolly">Learn more about me</a>
+          </div>
+        </div>
       </div>
+    </article>
 
-      <div class="card">
-        <h3>LLMs in Business Intelligence</h3>
+    <!-- About -->
+    <article id="about" class="wrapper style2">
+      <div class="container">
+        <header>
+          <h2>About Me</h2>
+        </header>
         <p>
-          A Streamlit app showcasing how Large Language Models can be applied to natural language BI queries, 
-          enabling users to interact with data more intuitively.
+          From analyzing large datasets to deploying AI-powered apps, my journey has been about 
+          making data work smarter and more impactful. I’m passionate about <strong>Large Language Models (LLMs)</strong>, 
+          <strong>Data Analytics</strong>, and <strong>AI applications</strong> that help people ask better questions, uncover 
+          clearer insights, and drive smarter decisions.
         </p>
-        <a href="https://github.com/SagarTechTrends/LLM-s-in-Business-Intelligence" target="_blank">View on GitHub</a> | 
-        <a href="https://llm-s-in-business-intelligence-cnnxvphi34ugctdljvlnyh.streamlit.app/" target="_blank">Try the App</a>
-      </div>
-
-      <div class="card">
-        <h3>Web Development Projects</h3>
         <p>
-          Built responsive web apps with HTML, CSS, JavaScript, and React, focusing on accessibility, 
-          user engagement, and performance optimization.
+          I’ve built projects such as a <strong>NYC Property Price Predictor</strong> using PySpark, XGBoost, and SHAP, 
+          and a <strong>Streamlit app for LLMs in Business Intelligence</strong>, gaining hands-on experience in predictive 
+          modeling, natural language query generation, and interactive analytics. I’m expanding my expertise in 
+          <strong>LLMs, NLP, and AI model deployment</strong>, while exploring areas like <strong>RAG, embeddings, and multimodal AI</strong>.
         </p>
-        <a href="https://github.com/SagarTechTrends" target="_blank">See More on GitHub</a>
       </div>
-    </div>
-  </section>
+    </article>
 
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>Email: <a href="mailto:sagarmurugeshbabu@gmail.com">sagarmurugeshbabu@gmail.com</a></p>
-    <p>LinkedIn: <a href="https://www.linkedin.com/in/sagar-murugesh-babu-1a3454123/" target="_blank">linkedin.com/in/sagar-murugesh-babu</a></p>
-    <p>GitHub: <a href="https://github.com/SagarTechTrends" target="_blank">github.com/SagarTechTrends</a></p>
-  </section>
+    <!-- Portfolio -->
+    <article id="portfolio" class="wrapper style3">
+      <div class="container">
+        <header>
+          <h2>Projects</h2>
+        </header>
+        <div class="row">
+          <div class="col-4 col-6-medium col-12-small">
+            <article class="box style2">
+              <a href="https://residential-property-sales-nyc.streamlit.app/" class="image featured">
+                <img src="images/nyc.png" alt="NYC Project" />
+              </a>
+              <h3>
+                <a href="https://github.com/SagarTechTrends/Residential-property-sales-NYC">
+                  NYC Property Price Predictor
+                </a>
+              </h3>
+              <p>Built with PySpark, XGBoost & SHAP. Interactive Streamlit app for real estate predictions.</p>
+            </article>
+          </div>
 
-  <footer>
-    <p>© 2025 Sagar Murugesh Babu | Built with GitHub Pages</p>
-  </footer>
-</body>
+          <div class="col-4 col-6-medium col-12-small">
+            <article class="box style2">
+              <a href="https://llm-s-in-business-intelligence-cnnxvphi34ugctdljvlnyh.streamlit.app/" class="image featured">
+                <img src="images/llm.png" alt="LLM BI Project" />
+              </a>
+              <h3>
+                <a href="https://github.com/SagarTechTrends/LLM-s-in-Business-Intelligence">
+                  LLMs in Business Intelligence
+                </a>
+              </h3>
+              <p>Exploring natural language BI queries with LLMs and Streamlit.</p>
+            </article>
+          </div>
+
+          <div class="col-4 col-6-medium col-12-small">
+            <article class="box style2">
+              <a href="https://github.com/SagarTechTrends" class="image featured">
+                <img src="images/webdev.png" alt="Web Projects" />
+              </a>
+              <h3><a href="https://github.com/SagarTechTrends">Web Development Projects</a></h3>
+              <p>Responsive apps using HTML, CSS, JavaScript & React for better user experience.</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <!-- Contact -->
+    <article id="contact" class="wrapper style4">
+      <div class="container medium">
+        <header>
+          <h2>Get in Touch</h2>
+        </header>
+        <p>Email: <a href="mailto:sagarmurugeshbabu@gmail.com">sagarmurugeshbabu@gmail.com</a></p>
+        <p>LinkedIn: 
+          <a href="https://www.linkedin.com/in/sagar-murugesh-babu-1a3454123/" target="_blank">
+            linkedin.com/in/sagar-murugesh-babu
+          </a>
+        </p>
+        <p>GitHub: 
+          <a href="https://github.com/SagarTechTrends" target="_blank">
+            github.com/SagarTechTrends
+          </a>
+        </p>
+      </div>
+    </article>
+
+    <!-- Footer -->
+    <footer>
+      <p style="text-align:center;">© 2025 Sagar Murugesh Babu | Built with GitHub Pages & HTML5 UP</p>
+    </footer>
+
+  </body>
 </html>
