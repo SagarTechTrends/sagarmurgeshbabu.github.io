@@ -38,8 +38,8 @@ header nav a:hover {
   color: #ffd700;
 }
 
-.Profile-pic {
-  width: 120px;          /* smaller size */
+.profile-pic {
+  width: 120px;          
   height: 120px;
   border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%; /* droplet shape */
   border: 3px solid #fff;
@@ -47,6 +47,7 @@ header nav a:hover {
   object-fit: cover;
   box-shadow: 0 3px 8px rgba(0,0,0,0.2);
 }
+
 
 
 /* Sections */
