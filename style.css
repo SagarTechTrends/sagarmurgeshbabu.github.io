@@ -38,18 +38,16 @@ header nav a:hover {
   color: #ffd700;
 }
 
-/* Profile Picture (fixed class name + droplet shape) */
-.Profile-pic {
-  width: 110px;          /* slightly smaller for balance */
+/* Profile Picture */
+.profile-pic {
+  width: 120px;          
   height: 120px;
-  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%; /* droplet shape */
+  border-radius: 50% 50% 50% 50% / 65% 65% 35% 35%; /* stronger droplet shape */
   border: 3px solid #fff;
-  margin-bottom: 15px;
-  object-fit: cover;
+  object-fit: cover;      /* crop & fit instead of stretching */
   box-shadow: 0 3px 8px rgba(0,0,0,0.2);
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto 15px auto; /* center the image */
 }
 
 /* Sections */
