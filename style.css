@@ -39,7 +39,7 @@ header nav a:hover {
 }
 
 /* Profile Picture */
-.profile-pic {
+.Profile-pic {
   width: 120px;
   height: 140px;                     /* taller to emphasize droplet */
   border-radius: 50% 50% 50% 50% / 70% 70% 40% 40%;  /* droplet shape */
@@ -51,7 +51,7 @@ header nav a:hover {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.profile-pic:hover {
+.Profile-pic:hover {
   transform: scale(1.05);
   box-shadow: 0 6px 15px rgba(0, 122, 204, 0.6);
 }
