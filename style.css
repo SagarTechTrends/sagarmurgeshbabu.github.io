@@ -38,17 +38,19 @@ header nav a:hover {
   color: #ffd700;
 }
 
-.Profile-pic {
-  width: 120px;          
+/* Profile Picture (fixed class name + droplet shape) */
+.profile-pic {
+  width: 110px;          /* slightly smaller for balance */
   height: 120px;
   border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%; /* droplet shape */
   border: 3px solid #fff;
   margin-bottom: 15px;
   object-fit: cover;
   box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
-
-
 
 /* Sections */
 section {
@@ -94,10 +96,12 @@ h2 {
   color: #007acc;
   font-weight: bold;
   text-decoration: none;
+  transition: color 0.3s ease;
 }
 
 .card a:hover {
   text-decoration: underline;
+  color: #005a99;
 }
 
 /* Contact */
