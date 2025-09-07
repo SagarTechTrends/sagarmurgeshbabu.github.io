@@ -39,7 +39,7 @@ header nav a:hover {
 }
 
 /* Profile Picture */
-.profile-pic {
+.Profile-pic {
   width: 120px;          
   height: 140px;
   border-radius: 50% 50% 50% 50% / 70% 70% 40% 40%; /* droplet shape */
