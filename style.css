@@ -39,16 +39,17 @@ header nav a:hover {
 }
 
 /* Profile Picture */
-.profile-pic {
+.Profile-pic {
   width: 120px;          
   height: 120px;
-  border-radius: 50% 50% 50% 50% / 65% 65% 35% 35%; /* stronger droplet shape */
+  border-radius: 50% 50% 50% 50% / 65% 65% 35% 35%; /* droplet shape */
   border: 3px solid #fff;
-  object-fit: cover;      /* crop & fit instead of stretching */
+  object-fit: cover;      /* crop the image inside shape */
   box-shadow: 0 3px 8px rgba(0,0,0,0.2);
   display: block;
-  margin: 0 auto 15px auto; /* center the image */
+  margin: 0 auto 15px auto; /* center horizontally */
 }
+
 
 
 /* Sections */
