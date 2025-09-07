@@ -39,7 +39,7 @@ header nav a:hover {
 }
 
 /* Profile Picture */
-.profile-pic {
+.Profile-pic {
   width: 120px;          
   height: 140px;
   border-radius: 50% 50% 50% 50% / 70% 70% 40% 40%; /* droplet shape */
@@ -52,7 +52,7 @@ header nav a:hover {
 }
 
 /* Hover Effect */
-.profile-pic:hover {
+.Profile-pic:hover {
   transform: scale(1.05); /* gentle zoom */
   box-shadow: 0 6px 15px rgba(0, 122, 204, 0.6); /* blue glow */
 }
